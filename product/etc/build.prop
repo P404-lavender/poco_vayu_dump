@@ -1,0 +1,59 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=POCO
+ro.product.product.device=vayu
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=Poco X3 Pro
+ro.product.product.name=p404_vayu
+ro.product.build.date=Sat Sep  3 05:04:27 UTC 2022
+ro.product.build.date.utc=1662181467
+ro.product.build.fingerprint=Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.3.0.SJUMIXM:user/release-keys
+ro.product.build.id=SKQ1.220714.001
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=1662181590
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=32
+####################################
+# from device/xiaomi/vayu/properties/product.prop
+####################################
+# Audio
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.offload.min.duration.secs=30
+audio.sys.offload.pstimeout.secs=3
+# Charger
+ro.charger.enable_suspend=true
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+iorapd.perfetto.enable=true
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.product.vndk.version=32
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.input.video_enabled=false
+ro.support_one_handed_mode=true
+ro.config.ringtone=Your_new_adventure.ogg
+ro.config.notification_sound=Eureka.ogg
+ro.config.alarm_alert=Fresh_start.ogg
+persist.dbg.volte_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
